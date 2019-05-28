@@ -1,0 +1,14 @@
+.nav-wrapper .brand-logo{
+    background: url("../assets/img/logo.png") no-repeat left;
+    background-size: cover;
+    background-origin: content-box;
+    height: 100%;
+    width: 200px;
+    padding: 5px;
+    margin-left: -20px;
+}
+
+/*
+.nav-wrapper li a{
+    font-size: 1.5rem;
+}*/

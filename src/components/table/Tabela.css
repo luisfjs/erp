@@ -1,0 +1,18 @@
+table {
+    min-width: 100%;
+    margin-bottom: 0!important;
+}
+
+.tableWrapper {
+    overflow-x: auto;
+}
+
+.table-pagination{
+    flex-shrink: 0;
+    color: rgba(0, 0, 0, 0.54);
+    margin-left: 20px;
+}
+
+th > span{color: inherit!important;}
+
+table td{text-align: left!important;}

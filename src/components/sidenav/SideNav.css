@@ -1,0 +1,43 @@
+.profile-foto img{background-size: cover;}
+.sidenav .divider{margin: 0!important;}
+.sidenav .user-view{margin-bottom: 0!important;}
+
+.side-nav-padding{padding-left: 300px!important;}
+/*nav, header, main, footer {padding-left: 300px!important;}*/
+
+@media only screen and (max-width : 992px) {
+    nav, header, main, footer {
+        padding-left: 0;
+    }
+    .drag-target, #naviside{min-height: 500px!important;}
+}
+
+@media only screen and (min-width: 601px){
+    nav ul{line-height: inherit!important;}
+}
+
+nav ul{line-height: inherit!important;}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #cfd8dc ;
+    box-shadow: inset 5px 10px 15px #cfd8dc;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #78909c;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #546e7a;
+}

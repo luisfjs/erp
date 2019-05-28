@@ -1,0 +1,29 @@
+.radiocheck-container{
+    margin-bottom: 15px !important;
+    margin-top: 10px!important;
+}
+
+.radiocheck-container label{
+    margin-left: 10px;
+}
+
+.materializecss .hide{
+    display: block!important;
+}
+
+.password-show-button {
+    position: absolute;
+    top: 18px;
+    right: 10px;
+    z-index: 3;
+    opacity: .5;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.password-show-button:hover {opacity: .87;color: #0087cc;}
+.p-i{padding: inherit!important;}
+.divider-radiocheck{margin-bottom: 5px !important; margin-top: 5px!important;}
+.radiocheck-container{margin-bottom: 15px !important; margin-top: 10px!important;}
